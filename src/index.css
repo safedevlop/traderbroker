@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  color: #e9ede9;
+  background: #111512;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+
+.auth-page { min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #111512; }
+.auth-card { width: min(100%, 440px); display: grid; gap: 14px; padding: 36px; border: 1px solid #2b332d; border-radius: 14px; background: #171c18; box-shadow: 0 22px 70px #0005; }
+.auth-card h1 { margin: 0; font-size: 30px; letter-spacing: -1px; }
+.auth-card label { display: grid; gap: 7px; color: #bbc4bd; font-size: 13px; }
+.auth-card input { width: 100%; padding: 12px; border: 1px solid #374139; border-radius: 7px; background: #111512; color: #edf2ed; }
+.auth-card .brand { margin-bottom: 18px; }
+.auth-switch { justify-content: center; }
+.auth-error { margin: 0; color: #e8787e; font-size: 13px; }
+.user-email { color: #89928b; font-size: 12px; }
